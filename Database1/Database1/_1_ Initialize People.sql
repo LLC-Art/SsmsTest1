@@ -1,4 +1,6 @@
 // Added in GitHub
+truncate table People
+//
 
 insert
 	People
