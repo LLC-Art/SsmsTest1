@@ -70,4 +70,17 @@
     <None Include="_2_ Select People.sql" />
     <None Include="_1_ Initialize People.sql" />
   </ItemGroup>
+  <ItemGroup>
+    <ArtifactReference Include="bin\Debug\Database1.dacpac">
+      <HintPath>bin\Debug\Database1.dacpac</HintPath>
+      <SuppressMissingDependenciesErrors>False</SuppressMissingDependenciesErrors>
+      <DatabaseSqlCmdVariable>Database1</DatabaseSqlCmdVariable>
+    </ArtifactReference>
+  </ItemGroup>
+  <ItemGroup>
+    <SqlCmdVariable Include="Database1">
+      <DefaultValue>GitTestDB</DefaultValue>
+      <Value>$(SqlCmdVar__1)</Value>
+    </SqlCmdVariable>
+  </ItemGroup>
 </Project>
