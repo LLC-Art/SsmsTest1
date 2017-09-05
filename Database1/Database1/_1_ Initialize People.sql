@@ -1,4 +1,6 @@
-﻿insert
+// Added in GitHub
+
+insert
 	People
 values
 	('1','Art','Calek','ac@junk.tv'),
